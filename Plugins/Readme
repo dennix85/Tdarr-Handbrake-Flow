@@ -1,0 +1,38 @@
+In here i will drop the plugins, so you can download them, 
+or you could add the plugins repo to your tdarr, 
+I will make the link in here at a later point when i have the time. 
+When u add the repo link, your tdarr will auto pull the plugins, 
+and the updates that i make to plugins automatically. 
+
+Keep in mind, sadly due to missing libraries, in docker container some function will not work.
+and it is not easily solveable by me. I will not support docker, most of the plugins I 
+will currently modify to disable functions that are known to have issues. 
+the plugins will clearly make a statement in the logs that docker enviroment is 
+detected and function A, B G or Z is disable due to docker. 
+
+when i have modified the plugins 
+i will release them in here. 
+
+Dont ask for docker support, as i am not the dev of the project 
+its not up to me to fix those issues 
+
+mainly the issues arrise in mediainfo, libdovi, handbrake, and ffmpeg 
+
+ffmpeg jellyfin that is being used inside the container is optimized for their mediaserver and for tdarr for encoding like we do, 
+when compared to original ffmpeg, it misses over 20 flags that are disabled sadly. 
+I advice to get the ffmpeg version from btbn or gyan-dev (linux - windows) and use these, 
+download them, extract them, put them in a folder, edit the node config to use these instead of the bundle ones. 
+do the same for ffprobe as described here above.
+
+!! WINDOWS USER SHOULD DO THIS BY DEFAULT AS THE FFMPEG VERSION IS 5 THAT COMES BUNDLED WITH TDARR!!
+
+Same goes for handbrake, download or compile the handbrake-cli with these flags enabled: 
+./configure --launch-jobs=$(nproc) --launch -–enable-qsv -–enable-nvdec -–enable-vce -–enable-libdovi -–disable-gtk --enable-x265 --disable-numa --enable-fdk-aac --enable-nvenc --force
+
+Follow the handbrake tutorials to setup your build enviroment correctly and make sure the dependencies are met. 
+
+Then the same as with ffmpeg, copy it to the same folder, and point your node config to use it. 
+
+And the same process should be done for mediainfo(-cli)
+you download/compile the latest version, point the node config to use the new binary. 
+
