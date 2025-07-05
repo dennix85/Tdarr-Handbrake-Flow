@@ -2,3 +2,5 @@ i tried to create a dockerfile to run a custom docker container
 with all the needed libraries and dependencies and correctly compiled binaries 
 however i cannot seem to get the user and permissions right when starting the app. 
 if you know how to fix this, feel free to modify and update it :) 
+everything works, except i broke the qsv_av1 encoder, i believe this is due to the permission to acces the gpu 
+but im not sure, docker is not really my territory. 
