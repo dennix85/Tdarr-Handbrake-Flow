@@ -1,0 +1,4 @@
+This is the JSON file you can import in to your tdarr instance. 
+But this will only work when u import the plugins that go allong with it. 
+Just copy the plugins in to the correct directories. 
+I have preserved the directory structure like on my server so do exactly the same and you will be fine. 
