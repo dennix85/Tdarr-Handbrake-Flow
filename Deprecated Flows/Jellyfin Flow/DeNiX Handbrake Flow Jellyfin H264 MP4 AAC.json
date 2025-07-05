@@ -1,0 +1,736 @@
+{
+  "_id": "MxYj7V7lv",
+  "name": "DeNiX Handbrake Flow Jellyfin H264 MP4 AAC",
+  "description": "DeNiX Handbrake Flow Jellyfin H264 MP4 AAC",
+  "tags": "",
+  "flowPlugins": [
+    {
+      "name": "CPU Encoder Lib-x264",
+      "sourceRepo": "Local",
+      "pluginName": "customHandbrake",
+      "version": "1.0.0",
+      "id": "K02BlsLT4",
+      "position": {
+        "x": 1244.8701002601506,
+        "y": -215.09206720150888
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "jsonPreset": "{\n  \"PresetList\": [\n    {\n      \"AlignAVStart\": true,\n      \"AudioCopyMask\": [\n        \"copy:aac\",\n        \"copy:ac3\",\n        \"copy:eac3\",\n        \"copy:truehd\",\n        \"copy:dts\",\n        \"copy:dtshd\",\n        \"copy:mp2\",\n        \"copy:mp3\",\n        \"copy:opus\",\n        \"copy:vorbis\",\n        \"copy:flac\",\n        \"copy:alac\"\n      ],\n      \"AudioEncoderFallback\": \"none\",\n      \"AudioLanguageList\": [\n        \"any\"\n      ],\n      \"AudioList\": [\n        {\n          \"AudioBitrate\": 512,\n          \"AudioCompressionLevel\": 0,\n          \"AudioEncoder\": \"copy\",\n          \"AudioMixdown\": \"5point1\",\n          \"AudioNormalizeMixLevel\": false,\n          \"AudioSamplerate\": \"auto\",\n          \"AudioTrackQualityEnable\": false,\n          \"AudioTrackQuality\": -1,\n          \"AudioTrackGainSlider\": 0,\n          \"AudioTrackDRCSlider\": 0\n        }\n      ],\n      \"AudioSecondaryEncoderMode\": false,\n      \"AudioTrackSelectionBehavior\": \"all\",\n      \"ChapterMarkers\": true,\n      \"ChildrenArray\": [],\n      \"Default\": false,\n      \"FileFormat\": \"av_mp4\",\n      \"Folder\": false,\n      \"FolderOpen\": false,\n      \"Optimize\": true,\n      \"Mp4iPodCompatible\": false,\n      \"PictureCropMode\": 3,\n      \"PictureBottomCrop\": 0,\n      \"PictureLeftCrop\": 0,\n      \"PictureRightCrop\": 0,\n      \"PictureTopCrop\": 0,\n      \"PictureDARWidth\": 1279,\n      \"PictureDeblockPreset\": \"off\",\n      \"PictureDeblockTune\": \"medium\",\n      \"PictureDeblockCustom\": \"strength=strong:thresh=20:blocksize=8\",\n      \"PictureDeinterlaceFilter\": \"off\",\n      \"PictureCombDetectPreset\": \"off\",\n      \"PictureCombDetectCustom\": \"\",\n      \"PictureDenoiseCustom\": \"\",\n      \"PictureDenoiseFilter\": \"off\",\n      \"PictureSharpenCustom\": \"\",\n      \"PictureSharpenFilter\": \"off\",\n      \"PictureSharpenPreset\": \"medium\",\n      \"PictureSharpenTune\": \"none\",\n      \"PictureDetelecine\": \"off\",\n      \"PictureDetelecineCustom\": \"\",\n      \"PictureColorspacePreset\": \"custom\",\n      \"PictureColorspaceCustom\": \"primaries=bt709:transfer=bt709:matrix=bt709:tonemap=reinhard:desat=2\",\n      \"PictureChromaSmoothPreset\": \"off\",\n      \"PictureChromaSmoothTune\": \"none\",\n      \"PictureChromaSmoothCustom\": \"\",\n      \"PictureItuPAR\": false,\n      \"PictureKeepRatio\": true,\n      \"PicturePAR\": \"auto\",\n      \"PicturePARWidth\": 959,\n      \"PicturePARHeight\": 960,\n      \"PictureUseMaximumSize\": true,\n      \"PictureAllowUpscaling\": false,\n      \"PictureForceHeight\": 0,\n      \"PictureForceWidth\": 0,\n      \"PicturePadMode\": \"none\",\n      \"PicturePadTop\": 0,\n      \"PicturePadBottom\": 0,\n      \"PicturePadLeft\": 0,\n      \"PicturePadRight\": 0,\n      \"PresetName\": \"Jellyfin MP4 h264 AAC\",\n      \"Type\": 1,\n      \"SubtitleAddCC\": true,\n      \"SubtitleAddForeignAudioSearch\": false,\n      \"SubtitleAddForeignAudioSubtitle\": false,\n      \"SubtitleBurnBehavior\": \"none\",\n      \"SubtitleBurnBDSub\": false,\n      \"SubtitleBurnDVDSub\": false,\n      \"SubtitleLanguageList\": [\n        \"any\"\n      ],\n      \"SubtitleTrackSelectionBehavior\": \"all\",\n      \"VideoAvgBitrate\": 0,\n      \"VideoColorMatrixCode\": 0,\n      \"VideoEncoder\": \"x264\",\n      \"VideoFramerateMode\": \"cfr\",\n      \"VideoGrayScale\": false,\n      \"VideoScaler\": \"swscale\",\n      \"VideoPreset\": \"veryslow\",\n      \"VideoTune\": \"fastdecode\",\n      \"VideoProfile\": \"auto\",\n      \"VideoLevel\": \"auto\",\n      \"VideoOptionExtra\": \"\",\n      \"VideoQualityType\": 2,\n      \"VideoQualitySlider\": 30,\n      \"VideoMultiPass\": false,\n      \"VideoTurboMultiPass\": false,\n      \"x264UseAdvancedOptions\": false,\n      \"PresetDisabled\": false,\n      \"MetadataPassthru\": true\n    }\n  ],\n  \"VersionMajor\": 59,\n  \"VersionMicro\": 0,\n  \"VersionMinor\": 0\n}"
+      }
+    },
+    {
+      "name": "CPU Encoder Lib-x264",
+      "sourceRepo": "Local",
+      "pluginName": "customHandbrake",
+      "version": "1.0.0",
+      "id": "VM1G_Vzuh",
+      "position": {
+        "x": 1073.8701002601506,
+        "y": -214.59206720150888
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "jsonPreset": "{\n  \"PresetList\": [\n    {\n      \"AlignAVStart\": true,\n      \"AudioCopyMask\": [\n        \"copy:aac\",\n        \"copy:ac3\",\n        \"copy:eac3\",\n        \"copy:truehd\",\n        \"copy:dts\",\n        \"copy:dtshd\",\n        \"copy:mp2\",\n        \"copy:mp3\",\n        \"copy:opus\",\n        \"copy:vorbis\",\n        \"copy:flac\",\n        \"copy:alac\"\n      ],\n      \"AudioEncoderFallback\": \"none\",\n      \"AudioLanguageList\": [\n        \"any\"\n      ],\n      \"AudioList\": [\n        {\n          \"AudioBitrate\": 512,\n          \"AudioCompressionLevel\": 0,\n          \"AudioEncoder\": \"copy\",\n          \"AudioMixdown\": \"5point1\",\n          \"AudioNormalizeMixLevel\": false,\n          \"AudioSamplerate\": \"auto\",\n          \"AudioTrackQualityEnable\": false,\n          \"AudioTrackQuality\": -1,\n          \"AudioTrackGainSlider\": 0,\n          \"AudioTrackDRCSlider\": 0\n        }\n      ],\n      \"AudioSecondaryEncoderMode\": false,\n      \"AudioTrackSelectionBehavior\": \"all\",\n      \"ChapterMarkers\": true,\n      \"ChildrenArray\": [],\n      \"Default\": false,\n      \"FileFormat\": \"av_mp4\",\n      \"Folder\": false,\n      \"FolderOpen\": false,\n      \"Optimize\": true,\n      \"Mp4iPodCompatible\": false,\n      \"PictureCropMode\": 3,\n      \"PictureBottomCrop\": 0,\n      \"PictureLeftCrop\": 0,\n      \"PictureRightCrop\": 0,\n      \"PictureTopCrop\": 0,\n      \"PictureDARWidth\": 1279,\n      \"PictureDeblockPreset\": \"off\",\n      \"PictureDeblockTune\": \"medium\",\n      \"PictureDeblockCustom\": \"strength=strong:thresh=20:blocksize=8\",\n      \"PictureDeinterlaceFilter\": \"off\",\n      \"PictureCombDetectPreset\": \"off\",\n      \"PictureCombDetectCustom\": \"\",\n      \"PictureDenoiseCustom\": \"\",\n      \"PictureDenoiseFilter\": \"off\",\n      \"PictureSharpenCustom\": \"\",\n      \"PictureSharpenFilter\": \"off\",\n      \"PictureSharpenPreset\": \"medium\",\n      \"PictureSharpenTune\": \"none\",\n      \"PictureDetelecine\": \"off\",\n      \"PictureDetelecineCustom\": \"\",\n      \"PictureColorspacePreset\": \"custom\",\n      \"PictureColorspaceCustom\": \"primaries=bt709:transfer=bt709:matrix=bt709:tonemap=reinhard:desat=2\",\n      \"PictureChromaSmoothPreset\": \"off\",\n      \"PictureChromaSmoothTune\": \"none\",\n      \"PictureChromaSmoothCustom\": \"\",\n      \"PictureItuPAR\": false,\n      \"PictureKeepRatio\": true,\n      \"PicturePAR\": \"auto\",\n      \"PicturePARWidth\": 959,\n      \"PicturePARHeight\": 960,\n      \"PictureUseMaximumSize\": true,\n      \"PictureAllowUpscaling\": false,\n      \"PictureForceHeight\": 0,\n      \"PictureForceWidth\": 0,\n      \"PicturePadMode\": \"none\",\n      \"PicturePadTop\": 0,\n      \"PicturePadBottom\": 0,\n      \"PicturePadLeft\": 0,\n      \"PicturePadRight\": 0,\n      \"PresetName\": \"Jellyfin MP4 h264 AAC\",\n      \"Type\": 1,\n      \"SubtitleAddCC\": true,\n      \"SubtitleAddForeignAudioSearch\": false,\n      \"SubtitleAddForeignAudioSubtitle\": false,\n      \"SubtitleBurnBehavior\": \"none\",\n      \"SubtitleBurnBDSub\": false,\n      \"SubtitleBurnDVDSub\": false,\n      \"SubtitleLanguageList\": [\n        \"any\"\n      ],\n      \"SubtitleTrackSelectionBehavior\": \"all\",\n      \"VideoAvgBitrate\": 0,\n      \"VideoColorMatrixCode\": 0,\n      \"VideoEncoder\": \"x264\",\n      \"VideoFramerateMode\": \"cfr\",\n      \"VideoGrayScale\": false,\n      \"VideoScaler\": \"swscale\",\n      \"VideoPreset\": \"veryslow\",\n      \"VideoTune\": \"fastdecode\",\n      \"VideoProfile\": \"auto\",\n      \"VideoLevel\": \"auto\",\n      \"VideoOptionExtra\": \"\",\n      \"VideoQualityType\": 2,\n      \"VideoQualitySlider\": 28,\n      \"VideoMultiPass\": false,\n      \"VideoTurboMultiPass\": false,\n      \"x264UseAdvancedOptions\": false,\n      \"PresetDisabled\": false,\n      \"MetadataPassthru\": true\n    }\n  ],\n  \"VersionMajor\": 59,\n  \"VersionMicro\": 0,\n  \"VersionMinor\": 0\n}"
+      }
+    },
+    {
+      "name": "CPU Encoder Lib-x264",
+      "sourceRepo": "Local",
+      "pluginName": "customHandbrake",
+      "version": "1.0.0",
+      "id": "72n_vnOKT",
+      "position": {
+        "x": 907.3701002601505,
+        "y": -214.59206720150888
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "jsonPreset": "{\n  \"PresetList\": [\n    {\n      \"AlignAVStart\": true,\n      \"AudioCopyMask\": [\n        \"copy:aac\",\n        \"copy:ac3\",\n        \"copy:eac3\",\n        \"copy:truehd\",\n        \"copy:dts\",\n        \"copy:dtshd\",\n        \"copy:mp2\",\n        \"copy:mp3\",\n        \"copy:opus\",\n        \"copy:vorbis\",\n        \"copy:flac\",\n        \"copy:alac\"\n      ],\n      \"AudioEncoderFallback\": \"none\",\n      \"AudioLanguageList\": [\n        \"any\"\n      ],\n      \"AudioList\": [\n        {\n          \"AudioBitrate\": 512,\n          \"AudioCompressionLevel\": 0,\n          \"AudioEncoder\": \"copy\",\n          \"AudioMixdown\": \"5point1\",\n          \"AudioNormalizeMixLevel\": false,\n          \"AudioSamplerate\": \"auto\",\n          \"AudioTrackQualityEnable\": false,\n          \"AudioTrackQuality\": -1,\n          \"AudioTrackGainSlider\": 0,\n          \"AudioTrackDRCSlider\": 0\n        }\n      ],\n      \"AudioSecondaryEncoderMode\": false,\n      \"AudioTrackSelectionBehavior\": \"all\",\n      \"ChapterMarkers\": true,\n      \"ChildrenArray\": [],\n      \"Default\": false,\n      \"FileFormat\": \"av_mp4\",\n      \"Folder\": false,\n      \"FolderOpen\": false,\n      \"Optimize\": true,\n      \"Mp4iPodCompatible\": false,\n      \"PictureCropMode\": 3,\n      \"PictureBottomCrop\": 0,\n      \"PictureLeftCrop\": 0,\n      \"PictureRightCrop\": 0,\n      \"PictureTopCrop\": 0,\n      \"PictureDARWidth\": 1279,\n      \"PictureDeblockPreset\": \"off\",\n      \"PictureDeblockTune\": \"medium\",\n      \"PictureDeblockCustom\": \"strength=strong:thresh=20:blocksize=8\",\n      \"PictureDeinterlaceFilter\": \"off\",\n      \"PictureCombDetectPreset\": \"off\",\n      \"PictureCombDetectCustom\": \"\",\n      \"PictureDenoiseCustom\": \"\",\n      \"PictureDenoiseFilter\": \"off\",\n      \"PictureSharpenCustom\": \"\",\n      \"PictureSharpenFilter\": \"off\",\n      \"PictureSharpenPreset\": \"medium\",\n      \"PictureSharpenTune\": \"none\",\n      \"PictureDetelecine\": \"off\",\n      \"PictureDetelecineCustom\": \"\",\n      \"PictureColorspacePreset\": \"custom\",\n      \"PictureColorspaceCustom\": \"primaries=bt709:transfer=bt709:matrix=bt709:tonemap=reinhard:desat=2\",\n      \"PictureChromaSmoothPreset\": \"off\",\n      \"PictureChromaSmoothTune\": \"none\",\n      \"PictureChromaSmoothCustom\": \"\",\n      \"PictureItuPAR\": false,\n      \"PictureKeepRatio\": true,\n      \"PicturePAR\": \"auto\",\n      \"PicturePARWidth\": 959,\n      \"PicturePARHeight\": 960,\n      \"PictureUseMaximumSize\": true,\n      \"PictureAllowUpscaling\": false,\n      \"PictureForceHeight\": 0,\n      \"PictureForceWidth\": 0,\n      \"PicturePadMode\": \"none\",\n      \"PicturePadTop\": 0,\n      \"PicturePadBottom\": 0,\n      \"PicturePadLeft\": 0,\n      \"PicturePadRight\": 0,\n      \"PresetName\": \"Jellyfin MP4 h264 AAC\",\n      \"Type\": 1,\n      \"SubtitleAddCC\": true,\n      \"SubtitleAddForeignAudioSearch\": false,\n      \"SubtitleAddForeignAudioSubtitle\": false,\n      \"SubtitleBurnBehavior\": \"none\",\n      \"SubtitleBurnBDSub\": false,\n      \"SubtitleBurnDVDSub\": false,\n      \"SubtitleLanguageList\": [\n        \"any\"\n      ],\n      \"SubtitleTrackSelectionBehavior\": \"all\",\n      \"VideoAvgBitrate\": 0,\n      \"VideoColorMatrixCode\": 0,\n      \"VideoEncoder\": \"x264\",\n      \"VideoFramerateMode\": \"cfr\",\n      \"VideoGrayScale\": false,\n      \"VideoScaler\": \"swscale\",\n      \"VideoPreset\": \"veryslow\",\n      \"VideoTune\": \"fastdecode\",\n      \"VideoProfile\": \"auto\",\n      \"VideoLevel\": \"auto\",\n      \"VideoOptionExtra\": \"\",\n      \"VideoQualityType\": 2,\n      \"VideoQualitySlider\": 25,\n      \"VideoMultiPass\": false,\n      \"VideoTurboMultiPass\": false,\n      \"x264UseAdvancedOptions\": false,\n      \"PresetDisabled\": false,\n      \"MetadataPassthru\": true\n    }\n  ],\n  \"VersionMajor\": 59,\n  \"VersionMicro\": 0,\n  \"VersionMinor\": 0\n}"
+      }
+    },
+    {
+      "name": "CPU Encoder Lib-x264",
+      "sourceRepo": "Local",
+      "pluginName": "customHandbrake",
+      "version": "1.0.0",
+      "id": "EjeGZtLPT",
+      "position": {
+        "x": 738.8701002601504,
+        "y": -214.59206720150888
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "jsonPreset": "{\n  \"PresetList\": [\n    {\n      \"AlignAVStart\": true,\n      \"AudioCopyMask\": [\n        \"copy:aac\",\n        \"copy:ac3\",\n        \"copy:eac3\",\n        \"copy:truehd\",\n        \"copy:dts\",\n        \"copy:dtshd\",\n        \"copy:mp2\",\n        \"copy:mp3\",\n        \"copy:opus\",\n        \"copy:vorbis\",\n        \"copy:flac\",\n        \"copy:alac\"\n      ],\n      \"AudioEncoderFallback\": \"none\",\n      \"AudioLanguageList\": [\n        \"any\"\n      ],\n      \"AudioList\": [\n        {\n          \"AudioBitrate\": 512,\n          \"AudioCompressionLevel\": 0,\n          \"AudioEncoder\": \"copy\",\n          \"AudioMixdown\": \"5point1\",\n          \"AudioNormalizeMixLevel\": false,\n          \"AudioSamplerate\": \"auto\",\n          \"AudioTrackQualityEnable\": false,\n          \"AudioTrackQuality\": -1,\n          \"AudioTrackGainSlider\": 0,\n          \"AudioTrackDRCSlider\": 0\n        }\n      ],\n      \"AudioSecondaryEncoderMode\": false,\n      \"AudioTrackSelectionBehavior\": \"all\",\n      \"ChapterMarkers\": true,\n      \"ChildrenArray\": [],\n      \"Default\": false,\n      \"FileFormat\": \"av_mp4\",\n      \"Folder\": false,\n      \"FolderOpen\": false,\n      \"Optimize\": true,\n      \"Mp4iPodCompatible\": false,\n      \"PictureCropMode\": 3,\n      \"PictureBottomCrop\": 0,\n      \"PictureLeftCrop\": 0,\n      \"PictureRightCrop\": 0,\n      \"PictureTopCrop\": 0,\n      \"PictureDARWidth\": 1279,\n      \"PictureDeblockPreset\": \"off\",\n      \"PictureDeblockTune\": \"medium\",\n      \"PictureDeblockCustom\": \"strength=strong:thresh=20:blocksize=8\",\n      \"PictureDeinterlaceFilter\": \"off\",\n      \"PictureCombDetectPreset\": \"off\",\n      \"PictureCombDetectCustom\": \"\",\n      \"PictureDenoiseCustom\": \"\",\n      \"PictureDenoiseFilter\": \"off\",\n      \"PictureSharpenCustom\": \"\",\n      \"PictureSharpenFilter\": \"off\",\n      \"PictureSharpenPreset\": \"medium\",\n      \"PictureSharpenTune\": \"none\",\n      \"PictureDetelecine\": \"off\",\n      \"PictureDetelecineCustom\": \"\",\n      \"PictureColorspacePreset\": \"custom\",\n      \"PictureColorspaceCustom\": \"primaries=bt709:transfer=bt709:matrix=bt709:tonemap=reinhard:desat=2\",\n      \"PictureChromaSmoothPreset\": \"off\",\n      \"PictureChromaSmoothTune\": \"none\",\n      \"PictureChromaSmoothCustom\": \"\",\n      \"PictureItuPAR\": false,\n      \"PictureKeepRatio\": true,\n      \"PicturePAR\": \"auto\",\n      \"PicturePARWidth\": 959,\n      \"PicturePARHeight\": 960,\n      \"PictureUseMaximumSize\": true,\n      \"PictureAllowUpscaling\": false,\n      \"PictureForceHeight\": 0,\n      \"PictureForceWidth\": 0,\n      \"PicturePadMode\": \"none\",\n      \"PicturePadTop\": 0,\n      \"PicturePadBottom\": 0,\n      \"PicturePadLeft\": 0,\n      \"PicturePadRight\": 0,\n      \"PresetName\": \"Jellyfin MP4 h264 AAC\",\n      \"Type\": 1,\n      \"SubtitleAddCC\": true,\n      \"SubtitleAddForeignAudioSearch\": false,\n      \"SubtitleAddForeignAudioSubtitle\": false,\n      \"SubtitleBurnBehavior\": \"none\",\n      \"SubtitleBurnBDSub\": false,\n      \"SubtitleBurnDVDSub\": false,\n      \"SubtitleLanguageList\": [\n        \"any\"\n      ],\n      \"SubtitleTrackSelectionBehavior\": \"all\",\n      \"VideoAvgBitrate\": 0,\n      \"VideoColorMatrixCode\": 0,\n      \"VideoEncoder\": \"x264\",\n      \"VideoFramerateMode\": \"cfr\",\n      \"VideoGrayScale\": false,\n      \"VideoScaler\": \"swscale\",\n      \"VideoPreset\": \"veryslow\",\n      \"VideoTune\": \"fastdecode\",\n      \"VideoProfile\": \"auto\",\n      \"VideoLevel\": \"auto\",\n      \"VideoOptionExtra\": \"\",\n      \"VideoQualityType\": 2,\n      \"VideoQualitySlider\": 23,\n      \"VideoMultiPass\": false,\n      \"VideoTurboMultiPass\": false,\n      \"x264UseAdvancedOptions\": false,\n      \"PresetDisabled\": false,\n      \"MetadataPassthru\": true\n    }\n  ],\n  \"VersionMajor\": 59,\n  \"VersionMicro\": 0,\n  \"VersionMinor\": 0\n}"
+      }
+    },
+    {
+      "name": "CPU Encoder Lib-x264",
+      "sourceRepo": "Local",
+      "pluginName": "customHandbrake",
+      "version": "1.0.0",
+      "id": "o1NeMRCA_",
+      "position": {
+        "x": 571.8701002601504,
+        "y": -214.59206720150888
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "jsonPreset": "{\n  \"PresetList\": [\n    {\n      \"AlignAVStart\": true,\n      \"AudioCopyMask\": [\n        \"copy:aac\",\n        \"copy:ac3\",\n        \"copy:eac3\",\n        \"copy:truehd\",\n        \"copy:dts\",\n        \"copy:dtshd\",\n        \"copy:mp2\",\n        \"copy:mp3\",\n        \"copy:opus\",\n        \"copy:vorbis\",\n        \"copy:flac\",\n        \"copy:alac\"\n      ],\n      \"AudioEncoderFallback\": \"none\",\n      \"AudioLanguageList\": [\n        \"any\"\n      ],\n      \"AudioList\": [\n        {\n          \"AudioBitrate\": 512,\n          \"AudioCompressionLevel\": 0,\n          \"AudioEncoder\": \"copy\",\n          \"AudioMixdown\": \"5point1\",\n          \"AudioNormalizeMixLevel\": false,\n          \"AudioSamplerate\": \"auto\",\n          \"AudioTrackQualityEnable\": false,\n          \"AudioTrackQuality\": -1,\n          \"AudioTrackGainSlider\": 0,\n          \"AudioTrackDRCSlider\": 0\n        }\n      ],\n      \"AudioSecondaryEncoderMode\": false,\n      \"AudioTrackSelectionBehavior\": \"all\",\n      \"ChapterMarkers\": true,\n      \"ChildrenArray\": [],\n      \"Default\": false,\n      \"FileFormat\": \"av_mp4\",\n      \"Folder\": false,\n      \"FolderOpen\": false,\n      \"Optimize\": true,\n      \"Mp4iPodCompatible\": false,\n      \"PictureCropMode\": 3,\n      \"PictureBottomCrop\": 0,\n      \"PictureLeftCrop\": 0,\n      \"PictureRightCrop\": 0,\n      \"PictureTopCrop\": 0,\n      \"PictureDARWidth\": 1279,\n      \"PictureDeblockPreset\": \"off\",\n      \"PictureDeblockTune\": \"medium\",\n      \"PictureDeblockCustom\": \"strength=strong:thresh=20:blocksize=8\",\n      \"PictureDeinterlaceFilter\": \"off\",\n      \"PictureCombDetectPreset\": \"off\",\n      \"PictureCombDetectCustom\": \"\",\n      \"PictureDenoiseCustom\": \"\",\n      \"PictureDenoiseFilter\": \"off\",\n      \"PictureSharpenCustom\": \"\",\n      \"PictureSharpenFilter\": \"off\",\n      \"PictureSharpenPreset\": \"medium\",\n      \"PictureSharpenTune\": \"none\",\n      \"PictureDetelecine\": \"off\",\n      \"PictureDetelecineCustom\": \"\",\n      \"PictureColorspacePreset\": \"custom\",\n      \"PictureColorspaceCustom\": \"primaries=bt709:transfer=bt709:matrix=bt709:tonemap=reinhard:desat=2\",\n      \"PictureChromaSmoothPreset\": \"off\",\n      \"PictureChromaSmoothTune\": \"none\",\n      \"PictureChromaSmoothCustom\": \"\",\n      \"PictureItuPAR\": false,\n      \"PictureKeepRatio\": true,\n      \"PicturePAR\": \"auto\",\n      \"PicturePARWidth\": 959,\n      \"PicturePARHeight\": 960,\n      \"PictureUseMaximumSize\": true,\n      \"PictureAllowUpscaling\": false,\n      \"PictureForceHeight\": 0,\n      \"PictureForceWidth\": 0,\n      \"PicturePadMode\": \"none\",\n      \"PicturePadTop\": 0,\n      \"PicturePadBottom\": 0,\n      \"PicturePadLeft\": 0,\n      \"PicturePadRight\": 0,\n      \"PresetName\": \"Jellyfin MP4 h264 AAC\",\n      \"Type\": 1,\n      \"SubtitleAddCC\": true,\n      \"SubtitleAddForeignAudioSearch\": false,\n      \"SubtitleAddForeignAudioSubtitle\": false,\n      \"SubtitleBurnBehavior\": \"none\",\n      \"SubtitleBurnBDSub\": false,\n      \"SubtitleBurnDVDSub\": false,\n      \"SubtitleLanguageList\": [\n        \"any\"\n      ],\n      \"SubtitleTrackSelectionBehavior\": \"all\",\n      \"VideoAvgBitrate\": 0,\n      \"VideoColorMatrixCode\": 0,\n      \"VideoEncoder\": \"x264\",\n      \"VideoFramerateMode\": \"cfr\",\n      \"VideoGrayScale\": false,\n      \"VideoScaler\": \"swscale\",\n      \"VideoPreset\": \"veryslow\",\n      \"VideoTune\": \"fastdecode\",\n      \"VideoProfile\": \"auto\",\n      \"VideoLevel\": \"auto\",\n      \"VideoOptionExtra\": \"\",\n      \"VideoQualityType\": 2,\n      \"VideoQualitySlider\": 21,\n      \"VideoMultiPass\": false,\n      \"VideoTurboMultiPass\": false,\n      \"x264UseAdvancedOptions\": false,\n      \"PresetDisabled\": false,\n      \"MetadataPassthru\": true\n    }\n  ],\n  \"VersionMajor\": 59,\n  \"VersionMicro\": 0,\n  \"VersionMinor\": 0\n}"
+      }
+    },
+    {
+      "name": "Run MKVPropEdit",
+      "sourceRepo": "Community",
+      "pluginName": "runMkvPropEdit",
+      "version": "1.0.0",
+      "id": "vLwmiXcf9",
+      "position": {
+        "x": 1346.777160720814,
+        "y": 176.46707707444722
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Image Removal",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_MC93_MigzImageRemoval"
+      },
+      "id": "fqdApeJRb",
+      "position": {
+        "x": 1346.6242282084022,
+        "y": 150.9485037069228
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Remove Data Streams",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_vdka_Remove_DataStreams"
+      },
+      "id": "I1UVU59RR",
+      "position": {
+        "x": 1346.5451235055489,
+        "y": 124.85330366924086
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Remux to MKV",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_MC93_Migz1Remux",
+        "force_conform": "true"
+      },
+      "id": "ObUMaCIcc",
+      "position": {
+        "x": 1346.3683153256334,
+        "y": 74.86994175368977
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Reorder Streams",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_lmg1_Reorder_Streams"
+      },
+      "id": "HDDKHmt0T",
+      "position": {
+        "x": 1346.0260668196559,
+        "y": 100.19338088126483
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Check File Extension MKV",
+      "sourceRepo": "Community",
+      "pluginName": "checkFileExtension",
+      "version": "1.0.0",
+      "id": "IYw_2Igmo",
+      "position": {
+        "x": 1345.8240631548106,
+        "y": 47.99477526474902
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "extensions": "mkv"
+      }
+    },
+    {
+      "name": "Set Original File",
+      "sourceRepo": "Community",
+      "pluginName": "setOriginalFile",
+      "version": "1.0.0",
+      "id": "3Pou2Zeqr",
+      "position": {
+        "x": 1345.9884331573255,
+        "y": 20.33756095517049
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Clear Cache",
+      "sourceRepo": "Community",
+      "pluginName": "clearCache",
+      "version": "1.0.0",
+      "id": "Gioyb4XX5",
+      "position": {
+        "x": 1345.9671415133048,
+        "y": -7.152832443026682
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Reset Flow Error",
+      "sourceRepo": "Community",
+      "pluginName": "resetFlowError",
+      "version": "1.0.0",
+      "id": "n1HTEjsUJ",
+      "position": {
+        "x": 1345.2435068945845,
+        "y": -33.04279657271354
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Notify Radarr",
+      "sourceRepo": "Community",
+      "pluginName": "notifyRadarrOrSonarr",
+      "version": "2.0.0",
+      "id": "ADWaDkXSx",
+      "position": {
+        "x": 470.5562521540736,
+        "y": 287.6658684562985
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Rename based on codec",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_scha_rename_based_on_codec_schadi",
+        "rename_video": "true",
+        "rename_audio": "true",
+        "additional_extensions": ".nfo,.srt,.sub,.ass,.ssa"
+      },
+      "id": "cB8sFDc0m",
+      "position": {
+        "x": 470.02687284752983,
+        "y": 187.74904024513114
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Reorder Streams (Video>Audio>Subs) based on language",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "id": "bc30yvbmh",
+      "position": {
+        "x": 469.688005614766,
+        "y": 109.14395323721315
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_00td_action_re_order_all_streams_v2",
+        "languages": "eng,und",
+        "channels": "5.1,2,1",
+        "codecs": "ac3,aac"
+      }
+    },
+    {
+      "name": "keep original time and date",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_z80t_keep_original_date",
+        "log": "true"
+      },
+      "id": "XsXxbYY2T",
+      "position": {
+        "x": 470.70782506057344,
+        "y": 213.01431475485936
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Keep Native Language + English",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "id": "OSVn2iRsD",
+      "position": {
+        "x": 469.84077714862804,
+        "y": -15.32924422397582
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_henk_Keep_Native_Lang_Plus_Eng",
+        "user_langs": "eng"
+      }
+    },
+    {
+      "name": "Clean Title",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_MC93_Migz2CleanTitle",
+        "clean_audio": "true",
+        "clean_subtitles": "true"
+      },
+      "id": "xKL0rweYr",
+      "position": {
+        "x": 470.13998837323743,
+        "y": -40.77169556940828
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Input File",
+      "sourceRepo": "Community",
+      "pluginName": "inputFile",
+      "version": "1.0.0",
+      "id": "xlqt9PIDj",
+      "position": {
+        "x": 495.16152898043424,
+        "y": -363.5459284794068
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Check Video Codec H264",
+      "sourceRepo": "Community",
+      "pluginName": "checkVideoCodec",
+      "version": "1.0.0",
+      "inputsDB": {
+        "codec": "h264"
+      },
+      "id": "2Ob2AGdum",
+      "position": {
+        "x": 494.5440951672797,
+        "y": -336.49638513950447
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Replace Original File",
+      "sourceRepo": "Community",
+      "pluginName": "replaceOriginalFile",
+      "version": "1.0.0",
+      "id": "CBTkaZUrm",
+      "position": {
+        "x": 470.87268349600527,
+        "y": 236.97904049215
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Run MKVPropEdit",
+      "sourceRepo": "Community",
+      "pluginName": "runMkvPropEdit",
+      "version": "1.0.0",
+      "id": "2ng0ct_oE",
+      "position": {
+        "x": 470.4245283120042,
+        "y": 161.60861311508427
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Check Video Resolution",
+      "sourceRepo": "Community",
+      "pluginName": "checkVideoResolution",
+      "version": "1.0.0",
+      "id": "ZS5gVfkga",
+      "position": {
+        "x": 912.3491647838082,
+        "y": -347.06719696167505
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Notify Sonarr",
+      "sourceRepo": "Community",
+      "pluginName": "notifyRadarrOrSonarr",
+      "version": "2.0.0",
+      "id": "N9ikplAaU",
+      "position": {
+        "x": 470.51738564321283,
+        "y": 262.13303478951445
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "arr": "sonarr"
+      }
+    },
+    {
+      "name": "Convert All Surround To AAC (Incl Downscale)",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "id": "ozyuBgprP",
+      "position": {
+        "x": 470.0964447554468,
+        "y": 21.806347833978634
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "pluginSourceId": "Local:DeNiX_Plugin_Surround_Sound_To_AAC",
+        "overwriteTracks": "true"
+      }
+    },
+    {
+      "name": "Clean Subtitles",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "id": "Yg-IZ7KXB",
+      "position": {
+        "x": 470.09644475544667,
+        "y": 83.59532428386665
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "pluginSourceId": "Local:Tdarr_Plugin_DeNiX_CleanSubs",
+        "remove_commentary": "true",
+        "remove_signs_and_songs": "true",
+        "remove_cc_sdh": "true",
+        "language": "eng"
+      }
+    },
+    {
+      "name": "Convert Stereo to AAC",
+      "sourceRepo": "Community",
+      "pluginName": "runClassicTranscodePlugin",
+      "version": "1.0.0",
+      "id": "ATLg3IDd7",
+      "position": {
+        "x": 470.64112567314925,
+        "y": 58.245888852146976
+      },
+      "fpEnabled": true,
+      "inputsDB": {
+        "pluginSourceId": "Community:Tdarr_Plugin_MC93_Migz5ConvertAudio",
+        "aac_stereo": "true"
+      }
+    }
+  ],
+  "flowEdges": [
+    {
+      "source": "xKL0rweYr",
+      "sourceHandle": "1",
+      "target": "OSVn2iRsD",
+      "targetHandle": null,
+      "id": "JGa0k4Pvi"
+    },
+    {
+      "source": "bc30yvbmh",
+      "sourceHandle": "1",
+      "target": "2ng0ct_oE",
+      "targetHandle": null,
+      "id": "j2zUtY-mx"
+    },
+    {
+      "source": "2ng0ct_oE",
+      "sourceHandle": "1",
+      "target": "cB8sFDc0m",
+      "targetHandle": null,
+      "id": "pctdFjKDR"
+    },
+    {
+      "source": "cB8sFDc0m",
+      "sourceHandle": "1",
+      "target": "XsXxbYY2T",
+      "targetHandle": null,
+      "id": "WI_umWh6V"
+    },
+    {
+      "source": "XsXxbYY2T",
+      "sourceHandle": "1",
+      "target": "CBTkaZUrm",
+      "targetHandle": null,
+      "id": "74MJSCP2S"
+    },
+    {
+      "source": "2Ob2AGdum",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "SZ3z9oei3"
+    },
+    {
+      "source": "N9ikplAaU",
+      "sourceHandle": "2",
+      "target": "ADWaDkXSx",
+      "targetHandle": null,
+      "id": "wCDCDH3GX"
+    },
+    {
+      "source": "n1HTEjsUJ",
+      "sourceHandle": "1",
+      "target": "Gioyb4XX5",
+      "targetHandle": null,
+      "id": "2wjcFVfcS"
+    },
+    {
+      "source": "Gioyb4XX5",
+      "sourceHandle": "1",
+      "target": "3Pou2Zeqr",
+      "targetHandle": null,
+      "id": "ZYpWOS9Sa"
+    },
+    {
+      "source": "3Pou2Zeqr",
+      "sourceHandle": "1",
+      "target": "IYw_2Igmo",
+      "targetHandle": null,
+      "id": "wxzi29S_g"
+    },
+    {
+      "source": "IYw_2Igmo",
+      "sourceHandle": "1",
+      "target": "HDDKHmt0T",
+      "targetHandle": null,
+      "id": "tGKfuSmPo"
+    },
+    {
+      "source": "IYw_2Igmo",
+      "sourceHandle": "2",
+      "target": "ObUMaCIcc",
+      "targetHandle": null,
+      "id": "8QQ-t_lYf"
+    },
+    {
+      "source": "HDDKHmt0T",
+      "sourceHandle": "1",
+      "target": "I1UVU59RR",
+      "targetHandle": null,
+      "id": "3O1LUj-d4"
+    },
+    {
+      "source": "ObUMaCIcc",
+      "sourceHandle": "1",
+      "target": "I1UVU59RR",
+      "targetHandle": null,
+      "id": "vCtj6uPcl"
+    },
+    {
+      "source": "I1UVU59RR",
+      "sourceHandle": "1",
+      "target": "fqdApeJRb",
+      "targetHandle": null,
+      "id": "g5W_-I9th"
+    },
+    {
+      "source": "fqdApeJRb",
+      "sourceHandle": "1",
+      "target": "vLwmiXcf9",
+      "targetHandle": null,
+      "id": "GFjdprVuq"
+    },
+    {
+      "source": "vLwmiXcf9",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "hi4-peWv6"
+    },
+    {
+      "source": "xlqt9PIDj",
+      "sourceHandle": "1",
+      "target": "2Ob2AGdum",
+      "targetHandle": null,
+      "id": "scoJaP_ar"
+    },
+    {
+      "source": "OSVn2iRsD",
+      "sourceHandle": "1",
+      "target": "ozyuBgprP",
+      "targetHandle": null,
+      "id": "PSuQBoLJG"
+    },
+    {
+      "source": "Yg-IZ7KXB",
+      "sourceHandle": "1",
+      "target": "bc30yvbmh",
+      "targetHandle": null,
+      "id": "dMe93Id3L"
+    },
+    {
+      "source": "2Ob2AGdum",
+      "sourceHandle": "2",
+      "target": "ZS5gVfkga",
+      "targetHandle": null,
+      "id": "tL1mgH6k8"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "1",
+      "target": "o1NeMRCA_",
+      "targetHandle": null,
+      "id": "H2RDtU9uR"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "2",
+      "target": "o1NeMRCA_",
+      "targetHandle": null,
+      "id": "jD1NMMAkm"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "3",
+      "target": "EjeGZtLPT",
+      "targetHandle": null,
+      "id": "bdyq4DFmE"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "4",
+      "target": "72n_vnOKT",
+      "targetHandle": null,
+      "id": "-mkDEJ-qd"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "5",
+      "target": "72n_vnOKT",
+      "targetHandle": null,
+      "id": "Guw9N9fmT"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "6",
+      "target": "VM1G_Vzuh",
+      "targetHandle": null,
+      "id": "Iy2NN60wJ"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "7",
+      "target": "VM1G_Vzuh",
+      "targetHandle": null,
+      "id": "B6M_-miHr"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "8",
+      "target": "K02BlsLT4",
+      "targetHandle": null,
+      "id": "KUx3Lug6E"
+    },
+    {
+      "source": "ZS5gVfkga",
+      "sourceHandle": "9",
+      "target": "K02BlsLT4",
+      "targetHandle": null,
+      "id": "pM-Ndyt3r"
+    },
+    {
+      "source": "o1NeMRCA_",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "SS2xojDfB"
+    },
+    {
+      "source": "EjeGZtLPT",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "I1OSgzlWI"
+    },
+    {
+      "source": "72n_vnOKT",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "Huti1fmsD"
+    },
+    {
+      "source": "VM1G_Vzuh",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "6UHOhuJK9"
+    },
+    {
+      "source": "K02BlsLT4",
+      "sourceHandle": "1",
+      "target": "xKL0rweYr",
+      "targetHandle": null,
+      "id": "qi6APb_3t"
+    },
+    {
+      "source": "o1NeMRCA_",
+      "sourceHandle": "err1",
+      "target": "n1HTEjsUJ",
+      "targetHandle": null,
+      "id": "oCMFV63fs"
+    },
+    {
+      "source": "EjeGZtLPT",
+      "sourceHandle": "err1",
+      "target": "n1HTEjsUJ",
+      "targetHandle": null,
+      "id": "dSfXsi_8o"
+    },
+    {
+      "source": "72n_vnOKT",
+      "sourceHandle": "err1",
+      "target": "n1HTEjsUJ",
+      "targetHandle": null,
+      "id": "ihik6gLFx"
+    },
+    {
+      "source": "VM1G_Vzuh",
+      "sourceHandle": "err1",
+      "target": "n1HTEjsUJ",
+      "targetHandle": null,
+      "id": "KEL5LqpIE"
+    },
+    {
+      "source": "K02BlsLT4",
+      "sourceHandle": "err1",
+      "target": "n1HTEjsUJ",
+      "targetHandle": null,
+      "id": "Y8pCHE_eR"
+    },
+    {
+      "source": "ozyuBgprP",
+      "sourceHandle": "1",
+      "target": "ATLg3IDd7",
+      "targetHandle": null,
+      "id": "6P5g3a6T4"
+    },
+    {
+      "source": "ATLg3IDd7",
+      "sourceHandle": "1",
+      "target": "Yg-IZ7KXB",
+      "targetHandle": null,
+      "id": "QgPYV46wd"
+    },
+    {
+      "source": "CBTkaZUrm",
+      "sourceHandle": "1",
+      "target": "N9ikplAaU",
+      "targetHandle": null,
+      "id": "P_XsxVu88"
+    }
+  ]
+}
