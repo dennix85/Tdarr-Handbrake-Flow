@@ -150,6 +150,7 @@ docker pull denix811/tdarr-denix:latest
 To make getting started easier, I provide pre-configured flows for immediate use:
 
 ### Current Flow (Recommended)
+<img width="757" height="725" alt="image" src="https://github.com/user-attachments/assets/60bc614a-3280-4be5-8c94-d41c07ef673e" />
 
 **Latest Maintained Flow:**
 - ✅ **Actively Maintained**: Regular updates and improvements
