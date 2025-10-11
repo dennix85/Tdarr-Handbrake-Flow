@@ -120,7 +120,7 @@ docker pull denix811/tdarr-denix:latest
 1. **Download the plugins** from this repository
 2. **Copy plugin files** to your Tdarr plugins directory:
    ```
-   server\Tdarr\Plugins\FlowPlugins\LocalFlowPlugins\
+   server\Tdarr\Plugins\FlowPlugins\LocalFlowPlugins\denix
    ```
 3. **Restart Tdarr server** to load the new plugins
 
@@ -135,7 +135,7 @@ docker pull denix811/tdarr-denix:latest
 1. **Download the plugins** from this repository
 2. **Copy plugin files** to your Tdarr plugins directory:
    ```
-   server\Tdarr\Plugins\FlowPlugins\LocalFlowPlugins\
+   server\Tdarr\Plugins\FlowPlugins\LocalFlowPlugins\denix
    ```
    (Create the `LocalFlowPlugins` folder if it doesn't exist)
 3. **Install required tools manually**:
