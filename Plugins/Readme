@@ -36,3 +36,5 @@ Then the same as with ffmpeg, copy it to the same folder, and point your node co
 And the same process should be done for mediainfo(-cli)
 you download/compile the latest version, point the node config to use the new binary. 
 
+TO BE UPDATED IN THE FUTURE 
+WORK IN PROGRESS
