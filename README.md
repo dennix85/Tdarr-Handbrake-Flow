@@ -102,7 +102,7 @@ These tools must be installed separately and configured in your Tdarr node setti
 
 ### Plugin Installation
 
-#### Option 1: DeNiX Docker Container (Recommended)
+#### Option 1: DeNiX Plugin Repo Install (Recommended)
 
 ```bash
 # Pull the revolutionary DeNiX container with full bare metal functionality
@@ -117,18 +117,16 @@ docker pull denix811/tdarr-denix:latest
 ```
 
 **Then install the plugins:**
-1. **Download the plugins** from this repository
-2. **Copy plugin files** to your Tdarr plugins directory:
-   ```
-   server\Tdarr\Plugins\FlowPlugins\LocalFlowPlugins\denix
-   ```
-3. **Restart Tdarr server** to load the new plugins
+1. **Open ur Tdarr WebUI, go to Options, then change the repo to: "https://github.com/dennix85/Tdarr_Plugins/archive/master.zip"**
+   <img width="1083" height="414" alt="image" src="https://github.com/user-attachments/assets/9abeb5e4-8e1c-4fac-bb7e-83176679a1f6" />
+2. **Go to the Flows tab and click on the buttons in the order like shown in the screenshot below:** 
+   Click "update community plugins" button, (wait 10sec), Click "sync node plugins" button, click on the addflow button:
+   <img width="469" height="192" alt="image" src="https://github.com/user-attachments/assets/63645233-8543-45e1-8452-5076f1e6e384" />
 
-**Why Choose This Container:**
-- **Zero Tool Setup**: All binaries and libraries pre-installed
-- **Full Functionality**: True bare metal performance in Docker
-- **Complete Support**: Dolby Vision + HDR10+ processing without limitations
-- **Perfect Environment**: Optimized runtime for DeNiX Enhanced Plugins
+3. **After u have clicked on the add flow button u should be able to see the flow in there:**
+<img width="527" height="437" alt="image" src="https://github.com/user-attachments/assets/f20fe1e9-407e-47f9-af9c-d043e4f6d202" />
+   **After u have clicked on it, u can add it in the next screen:**
+   <img width="567" height="208" alt="image" src="https://github.com/user-attachments/assets/47267c67-c69e-4249-9949-d17874d2cb0b" />
 
 #### Option 2: Manual Installation
 
@@ -228,6 +226,11 @@ Validation      Routing       Analysis      Processing   Output
 - 🚧 **Active Development**: Some plugins may still be in development phase
 
 ## 🐳 DeNiX Revolutionary Docker Container
+**Why Choose This Container:**
+- **Zero Tool Setup**: All binaries and libraries pre-installed
+- **Full Functionality**: True bare metal performance in Docker
+- **Complete Support**: Dolby Vision + HDR10+ processing without limitations
+- **Perfect Environment**: Optimized runtime for DeNiX Enhanced Plugins
 
 I've created a groundbreaking Docker container that **eliminates traditional Docker limitations** while providing full bare metal functionality:
 
