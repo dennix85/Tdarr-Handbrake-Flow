@@ -108,7 +108,7 @@
       "VideoLevel": "auto",
       "VideoOptionExtra": "",
       "VideoQualityType": 2,
-      "VideoQualitySlider": 25,
+      "VideoQualitySlider": 18,
       "VideoMultiPass": false,
       "VideoTurboMultiPass": false,
       "x264UseAdvancedOptions": false,
@@ -119,4 +119,5 @@
   "VersionMajor": 56,
   "VersionMicro": 0,
   "VersionMinor": 0
+
 }
