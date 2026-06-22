@@ -82,11 +82,13 @@ This sets the plugins repo URL in Tdarr and lets it pull plugins and flow templa
 1. Tdarr WebUI → Options → set the community plugins repository URL to:
    `https://github.com/dennix85/Tdarr_Plugins/archive/master.zip`
 
-   ![Options page with repo URL set](Flow/Screenshots/options-repo-url.png)
+   ![Options page with repo URL set]<img width="1083" height="414" alt="image" src="https://github.com/user-attachments/assets/1c9d3dca-c0dc-46d8-8836-084cf4917c43" />
+
 
 2. Flows tab → click "Update community plugins" (1) → wait ~10 seconds → click "Sync node plugins" (2)
 
-   ![Update and sync buttons](Flow/Screenshots/update-sync-buttons.png)
+   ![Update and sync buttons]<img width="469" height="192" alt="image" src="https://github.com/user-attachments/assets/c167342e-bcc9-4044-ace6-7e9d65009ed1" />
+
 
 3. Flows tab → "Flow +" (3 in the screenshot above) → Flow Templates → **Community** tab → find "DeNiX : Workflow v2 (online repo)" → click `+` to add it
 
@@ -104,9 +106,11 @@ No live repo connection. You download the plugin files and the flow JSON from th
 2. Download `Flow/DeNiX's Workflow v2.json` from this repo
 3. Flows tab → "Flow +" → Flow Templates → **Local** tab → "denix" category, or use "Import JSON Template" directly and select the downloaded file
 
-   ![Local tab, denix category](Flow/Screenshots/local-chapters-list.png)
+   ![Local tab, denix category]<img width="567" height="208" alt="image" src="https://github.com/user-attachments/assets/f0143e20-0fe8-4f15-b3a8-4b1636eb0aca" />
 
-   ![Adding the DeNiX Workflow v2 template](Flow/Screenshots/import-flow-denix.png)
+
+   ![Adding the DeNiX Workflow v2 template]<img width="527" height="437" alt="image" src="https://github.com/user-attachments/assets/06cdb015-783a-4d39-9265-fdde0d252f11" />
+
 
 4. Open it and confirm all the DeNiX plugin nodes resolved correctly — under this path, "not found" almost always means a plugin file didn't make it into `LocalFlowPlugins` or the server wasn't restarted after copying
 
@@ -134,4 +138,4 @@ Point it at a handful of files first. The `SizeDurationChecker` and `failFlow` b
 ## Issues & plugin source
 
 - Plugin source: [Tdarr_Plugins](https://github.com/dennix85/Tdarr_Plugins)
-- Issues: open a GitHub issue with the failing node name and `jobLog` output attached
+- Issues: uses the discord channel please 
