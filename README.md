@@ -16,7 +16,7 @@ Built for my own library. The defaults below (languages, IPs, encoder choice) ar
 
 ## What this flow does, in order
 
-![Full flow graph in the Tdarr UI](Flow/Screenshots/flow-graph-overview.png)
+![Full flow graph in the Tdarr UI]([Flow/Screenshots/flow-graph-overview.png](https://github.com/dennix85/Tdarr-Handbrake-Flow/blob/main/Flow/Screenshot/flow-graph-overview.png)
 
 The screenshot above is the actual graph from the Tdarr UI, including the `failFlow` error branches on the right-hand side. Simplified to just the success path:
 
