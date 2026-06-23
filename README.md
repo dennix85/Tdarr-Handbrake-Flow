@@ -1,4 +1,4 @@
-# DeNiX's Workflow v2
+# DeNiX's Workflow v2 / v3
 
 ## Support
 
