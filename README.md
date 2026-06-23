@@ -106,7 +106,7 @@ denix811/tdarr-denix on Docker Hub bundles FFmpeg, MediaInfo, HandBrakeCLI, and 
 
 docker pull denix811/tdarr-denix:latest
 
-[DockerHub:](https://hub.docker.com/r/denix811/tdarr-denix)
+You can find more info over here: [DockerHub](https://hub.docker.com/r/denix811/tdarr-denix)
 
 ## Known limitations
 
