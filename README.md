@@ -46,26 +46,6 @@ Every plugin in the middle has a `failFlow` branch on its error output — if an
 
 The `checkFileNameIncludes` step at the top is what makes this flow idempotent — files Tdarr has already processed get the `[TDARR]` tag from the Renamer step, so re-scanning a library doesn't re-encode files that are already done.
 
-## HandBrake presets
-
-Nine presets, one set per encoder/codec combination. All target 10-bit output, MKV container.
-
-| Preset | Encoder | HandBrake preset | Quality (CQ/CRF) |
-|---|---|---|---|
-| `CPU-Libx265-HEVC-10bit` | x265 (CPU) | slow | 21 |
-| `CPU-SVT-AV1-10bit` | SVT-AV1 (CPU) | 4 | 22 |
-| `QSV_HEVC_10bit` | Intel QSV HEVC | quality | 25 |
-| `QSV_AV1_10bit` | Intel QSV AV1 | quality | 18 |
-| `NVIDIA_HEVC_10bit` | NVENC HEVC | slowest | 25 |
-| `NVIDIA_AV1_10bit` | NVENC AV1 | slowest | 25 |
-| `VCE_HEVC_10bit` | AMD VCE HEVC | quality | 25 |
-| `VCE_AV1_10bit` | AMD VCE AV1 | quality | 25 |
-| `Jellyfin` | x264 (CPU) | veryslow | 21 |
-
-My own flow runs `DeNiXHandbrakeManager` with QSV AV1 as the configured encoder and bitrate filtering on. The full preset JSON is pasted directly into the plugin's HandBrake JSON Preset field rather than loaded as a separate import — the manager plugin takes the whole preset inline.
-
-The CPU presets are noticeably slower than the hardware ones — that's the tradeoff for not depending on a specific GPU/iGPU being present on the node.
-
 ## Installation
 
 There are two ways to get this running: let Tdarr pull everything from the repo automatically, or download the plugin files and flow JSON yourself and import them by hand. Pick one — don't mix them, or you'll end up with duplicate plugins.
@@ -128,6 +108,28 @@ Point it at a handful of files first. The `SizeDurationChecker` and `failFlow` b
 - The 2-minute HandBrake progress timeout is tuned for my hardware. A slow CPU preset on a large 4K file can legitimately take longer than 2 minutes between progress updates; raise the timeout if you're seeing false timeout failures on CPU encodes.
 - No before/after size or speed numbers are published yet for this specific flow end-to-end. The presets table above is what's configured, not a benchmark.
 - The companion "DV AND HDR10+ HW ACCELERATED FFMPEG FLOW" folder in this repo is a placeholder — there's no flow file in it yet.
+
+## HandBrake presets
+
+Nine presets, one set per encoder/codec combination. All target 10-bit output, MKV container.
+
+| Preset | Encoder | HandBrake preset | Quality (CQ/CRF) |
+|---|---|---|---|
+| `CPU-Libx265-HEVC-10bit` | x265 (CPU) | slow | 21 |
+| `CPU-SVT-AV1-10bit` | SVT-AV1 (CPU) | 4 | 22 |
+| `QSV_HEVC_10bit` | Intel QSV HEVC | quality | 25 |
+| `QSV_AV1_10bit` | Intel QSV AV1 | quality | 18 |
+| `NVIDIA_HEVC_10bit` | NVENC HEVC | slowest | 25 |
+| `NVIDIA_AV1_10bit` | NVENC AV1 | slowest | 25 |
+| `VCE_HEVC_10bit` | AMD VCE HEVC | quality | 25 |
+| `VCE_AV1_10bit` | AMD VCE AV1 | quality | 25 |
+| `Jellyfin` | x264 (CPU) | veryslow | 21 |
+
+My own flow runs `DeNiXHandbrakeManager` with QSV AV1 as the configured encoder and bitrate filtering on. The plugin has support to modify the presets to ur ownlikings. The plugin has the ability to import presets, if u have very different settings or expectations u can do so with presets .
+The full preset JSON is pasted directly into the plugin's HandBrake JSON Preset field rather than loaded as a separate import — the manager plugin takes the whole preset inline.
+
+The CPU presets are noticeably slower than the hardware ones — that's the tradeoff for not depending on a specific GPU/iGPU being present on the node.
+These are here for folks that are using another handbrake plugin. these are not activly mainted no more.
 
 ## Issues & plugin source
 
