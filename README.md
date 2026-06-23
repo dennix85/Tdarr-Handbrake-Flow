@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="resources/applogo.png" width="500" alt="DeNiX Tdarr Flow">
-</p>
-
 # DeNiX's Workflow v2
 
 ## Support
