@@ -134,4 +134,4 @@ These are here for folks that are using another handbrake plugin. these are not 
 ## Issues & plugin source
 
 - Plugin source: [Tdarr_Plugins](https://github.com/dennix85/Tdarr_Plugins)
-- Issues: Please visit the dedicated discord channel: https://discord.com/channels/623392507828371476/1353809945568612526
+- Issues: Please visit the dedicated discord channel: [Help & Support channel](https://discord.com/channels/623392507828371476/1353809945568612526)
