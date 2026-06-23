@@ -16,7 +16,7 @@ Built for my own library. The defaults below (languages, IPs, encoder choice) ar
 
 ## What this flow does, in order
 
-![Full flow graph in the Tdarr UI]<img width="757" height="725" alt="image" src="https://github.com/user-attachments/assets/93d30a0c-24be-4cb6-844f-7a4ed68b4592" />
+<img width="757" height="725" alt="image" src="https://github.com/user-attachments/assets/93d30a0c-24be-4cb6-844f-7a4ed68b4592" />
 
 
 The screenshot above is the actual graph from the Tdarr UI, including the `failFlow` error branches on the right-hand side. Simplified to just the success path:
@@ -77,20 +77,20 @@ This sets the plugins repo URL in Tdarr and lets it pull plugins and flow templa
 1. Tdarr WebUI → Options → set the community plugins repository URL to:
    `https://github.com/dennix85/Tdarr_Plugins/archive/master.zip`
 
-   ![Options page with repo URL set]<img width="1083" height="414" alt="image" src="https://github.com/user-attachments/assets/6cc9bc92-a041-42b1-ad5c-7d789a356e4a" />
+<img width="1083" height="414" alt="image" src="https://github.com/user-attachments/assets/6cc9bc92-a041-42b1-ad5c-7d789a356e4a" />
 
 
 2. Flows tab → click "Update community plugins" (1) → wait ~10 seconds → click "Sync node plugins" (2)
 
-   ![Update and sync buttons]<img width="469" height="192" alt="image" src="https://github.com/user-attachments/assets/d9b2b32a-7761-4284-b387-9a361060a47a" />
+<img width="469" height="192" alt="image" src="https://github.com/user-attachments/assets/d9b2b32a-7761-4284-b387-9a361060a47a" />
 
 
 3. Flows tab → "Flow +" (3 in the screenshot above) → Flow Templates → find "DeNiX : Workflow v2 (online repo)" under the "denix" category → click `+` to add it
 
-   ![Local tab, denix category]<img width="567" height="208" alt="image" src="https://github.com/user-attachments/assets/bdd54622-542d-498e-8933-72e3690cb4f0" />
+ <img width="567" height="208" alt="image" src="https://github.com/user-attachments/assets/bdd54622-542d-498e-8933-72e3690cb4f0" />
 
 
-   ![Adding the DeNiX Workflow v2 template]<img width="527" height="437" alt="image" src="https://github.com/user-attachments/assets/9a208999-14ee-4659-a3d9-b802a5405d38" />
+<img width="527" height="437" alt="image" src="https://github.com/user-attachments/assets/9a208999-14ee-4659-a3d9-b802a5405d38" />
 
 
 4. Open it and confirm all the DeNiX plugin nodes resolved correctly (no "plugin not found" errors) — if you skipped the sync in step 2, some nodes will show up broken
