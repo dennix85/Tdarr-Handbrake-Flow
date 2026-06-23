@@ -102,7 +102,7 @@ Go through each node and replace my settings with yours:
 Point it at a handful of files first. The `SizeDurationChecker` and `failFlow` branches will catch obviously broken output, but they won't catch a quality setting that's wrong for your content.
 
 ## Docker image
-denix811/tdarr-denix on Docker Hub bundles FFmpeg, MediaInfo, HandBrakeCLI, and libdovi (Dolby Vision) pre-installed and pathed, so you're not manually wiring up binary paths per node. It does not include the plugins themselves — install those separately via the repo method above or by copying files in like above.
+denix811/tdarr-denix on Docker Hub bundles FFmpeg, MediaInfo, HandBrakeCLI, libvmaf and libdovi (Dolby Vision) pre-installed and pathed, so you're not manually wiring up binary paths per node. It does not include the plugins themselves — install those separately via the repo method above or by copying files in like above.
 
 docker pull denix811/tdarr-denix:latest
 
